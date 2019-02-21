@@ -13,7 +13,9 @@ class QuanLyGioHang {
 
 	}
 
-	kiemTranTrangThaiSanPham() : void {}
+	kiemTranTrangThaiSanPham() : void {
+		 
+	}
 	
 	tinhSoLuong() : number{ 
 		return ;

@@ -1,24 +1,26 @@
-import {SanPham} from "./sanpham";
+import { SanPham } from "./sanpham";
 
-class QuanLyHang{
+export class QuanLyHang {
 	private hang = SanPham[] = [];
 
-	constructor(){}
+	constructor() {
+		console.log('test class');
+	}
 
-	getCacSanPham() : SanPham[]{
+	getCacSanPham(): SanPham[] {
 		return [];
 	}
 
-	getSanPhamById() : SanPham{
-		var motsanpham = new SanPham(1,'sp1',90000,"mota",true,"images/1.jpg");
+	getSanPhamById(): SanPham {
+		var motsanpham = new SanPham(1, 'sp1', 90000, "mota", true, "images/1.jpg");
 		return motsanpham;
 	}
 
-	addSanPham() : void{
+	addSanPham(): void {
 
 	}
 
-	showSanPham() : string{
+	showSanPham(): string {
 		return "";
 	}
 

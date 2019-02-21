@@ -1,0 +1,9 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "Học typescript cơ bản",
+  "dependencies": {
+    "systemjs": "0.20.18",
+    "systemjs-plugin-babel": "0.0.25"
+  }
+}
